@@ -1,5 +1,6 @@
 ## 1 Launch this command, then Record its Job ID cat /dev/zero > /dev/null &
 cat /dev/zero > /dev/null &
+
 jobs -1
 
 jobs 
@@ -23,4 +24,5 @@ kill 13128
 
 ## 7 Verify the process is no longer running.
 ps -f 13128
+
 
