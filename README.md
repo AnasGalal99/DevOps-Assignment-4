@@ -21,5 +21,6 @@ cat process_info.txt
 ## 6 Terminate the original cat /dev/zero > /dev/null process using its PID.
 kill 13128
 
-7 Verify the process is no longer running.
+## 7 Verify the process is no longer running.
 ps -f 13128
+
